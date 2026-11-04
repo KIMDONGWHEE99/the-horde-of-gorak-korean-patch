@@ -1,0 +1,225 @@
+{
+  "patch_version": "1.0.1",
+  "package_revision": "r1",
+  "steam_build": "26365992",
+  "game_version": "v1.1.04",
+  "zip_sha256": "427d383431c9cabc9c84bcaa97193a8e8b415400be33ea973bbaf856fbae0c41",
+  "zip_bytes": 8574240,
+  "static_checks": {
+    "status": "PASS",
+    "count": 12080,
+    "unexpected_changes": 0
+  },
+  "delta_roundtrips": {
+    "status": "PASS",
+    "changed_files": 12,
+    "directions": 24
+  },
+  "package_allowlist": {
+    "status": "PASS",
+    "files": 34
+  },
+  "installer": {
+    "status": "PASS",
+    "passed": 48,
+    "tests": [
+      {
+        "id": "install_original",
+        "status": "PASS"
+      },
+      {
+        "id": "duplicate_install",
+        "status": "PASS"
+      },
+      {
+        "id": "installed_status",
+        "status": "PASS"
+      },
+      {
+        "id": "mixed_partial_install_resume",
+        "status": "PASS"
+      },
+      {
+        "id": "mixed_partial_install_remove",
+        "status": "PASS"
+      },
+      {
+        "id": "remove",
+        "status": "PASS"
+      },
+      {
+        "id": "duplicate_remove",
+        "status": "PASS"
+      },
+      {
+        "id": "reinstall",
+        "status": "PASS"
+      },
+      {
+        "id": "remove_without_backup_reverse_patch",
+        "status": "PASS"
+      },
+      {
+        "id": "previous_public_release_update",
+        "status": "PASS"
+      },
+      {
+        "id": "updated_public_release_remove",
+        "status": "PASS"
+      },
+      {
+        "id": "same_files_different_build_number",
+        "status": "PASS"
+      },
+      {
+        "id": "same_files_different_build_remove",
+        "status": "PASS"
+      },
+      {
+        "id": "previous_game_build_rejected",
+        "status": "PASS"
+      },
+      {
+        "id": "altered_pack",
+        "status": "PASS"
+      },
+      {
+        "id": "updated_executable",
+        "status": "PASS"
+      },
+      {
+        "id": "truncated_game_file",
+        "status": "PASS"
+      },
+      {
+        "id": "missing_game_file",
+        "status": "PASS"
+      },
+      {
+        "id": "missing_changed_file",
+        "status": "PASS"
+      },
+      {
+        "id": "damaged_forward",
+        "status": "PASS"
+      },
+      {
+        "id": "damaged_reverse",
+        "status": "PASS"
+      },
+      {
+        "id": "damaged_decoder",
+        "status": "PASS"
+      },
+      {
+        "id": "invalid_game_path",
+        "status": "PASS"
+      },
+      {
+        "id": "unsafe_manifest_path",
+        "status": "PASS"
+      },
+      {
+        "id": "rollback_after_receipt_write_failure",
+        "status": "PASS"
+      },
+      {
+        "id": "retry_after_receipt_failure",
+        "status": "PASS"
+      },
+      {
+        "id": "remove_after_receipt_failure",
+        "status": "PASS"
+      },
+      {
+        "id": "journal_write_failure",
+        "status": "PASS"
+      },
+      {
+        "id": "rollback_locked_replacement",
+        "status": "PASS"
+      },
+      {
+        "id": "retry_after_file_unlock",
+        "status": "PASS"
+      },
+      {
+        "id": "remove_after_file_unlock",
+        "status": "PASS"
+      },
+      {
+        "id": "second_replacement_rollback",
+        "status": "PASS"
+      },
+      {
+        "id": "retry_after_second_replacement_failure",
+        "status": "PASS"
+      },
+      {
+        "id": "remove_after_second_replacement_failure",
+        "status": "PASS"
+      },
+      {
+        "id": "prepare_backup_corruption",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_corrupt_original_backup",
+        "status": "PASS"
+      },
+      {
+        "id": "retry_interrupted_backup_preparation",
+        "status": "PASS"
+      },
+      {
+        "id": "remove_after_backup_preparation_recovery",
+        "status": "PASS"
+      },
+      {
+        "id": "forced_process_stop",
+        "status": "PASS"
+      },
+      {
+        "id": "resume_after_forced_stop",
+        "status": "PASS"
+      },
+      {
+        "id": "remove_after_forced_stop_recovery",
+        "status": "PASS"
+      },
+      {
+        "id": "prepare_after_replace_interruption",
+        "status": "PASS"
+      },
+      {
+        "id": "recover_after_atomic_replace",
+        "status": "PASS"
+      },
+      {
+        "id": "prepare_stale_journal",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_mismatched_recovery_journal",
+        "status": "PASS"
+      },
+      {
+        "id": "reject_running_target_path_stub",
+        "status": "PASS"
+      },
+      {
+        "id": "steam_additional_library_and_nested_receipt_discovery",
+        "status": "PASS"
+      },
+      {
+        "id": "mixed_partial_file_install",
+        "status": "PASS"
+      }
+    ]
+  },
+  "graphics_qa": {
+    "status": "NOT_RUN",
+    "scope": "전체 검수는 미완료. 메뉴·설정·도입부·지도·전투·저장/이어하기·종료 확인. 신규 상점 실화면·엔딩·전체 분기·설치본 추가 실행 미확인"
+  },
+  "native_diagnostics": "기존 엔진의 일부 JSON 오류 등 영문 진단 문구 잔존. 전수 분류 미완료"
+}
